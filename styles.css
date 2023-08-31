@@ -1,0 +1,57 @@
+/* background-color:#4545d3; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins', sans-serif;
+}
+
+.base-div{
+    width:100%;
+    height:100vh;
+    background-color:#4545d3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.base{
+    background:#7a951f;
+    padding:20;
+    border-radius:10px;
+    
+}
+
+form input{
+    border:0;
+    outline:0;
+    width:60px;
+    height:60px;
+    border-radius:10px;
+    box-shadow: -8px -8px 15px rgb(45 64 194),5px 5px 15px rgb(109 133 232 / 64%);
+    background:transparent;
+    font-size:20px;
+    cursor:pointer;
+    color:white;
+    margin:5px;
+}
+
+.screen-div{
+    display:flex;
+    justify-content:flex-end;
+    margin:20px 0;
+}
+
+.screen-div input{
+    text-align:right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow:none;
+    border:1px solid white;
+    
+}
+.equalto{
+    width: 135px;
+}
